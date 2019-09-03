@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "868898507008",
+    "firebase_url": "https://geekgossip-2e495.firebaseio.com",
+    "project_id": "geekgossip-2e495",
+    "storage_bucket": "geekgossip-2e495.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868898507008:android:4f1d76315f85c1be",
+        "android_client_info": {
+          "package_name": "com.example.geekgossip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868898507008-a6sqvh1e9ve6vbcmr31j7v2rberrl607.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.geekgossip",
+            "certificate_hash": "1af6eaff2608a158f11ff198a254fbfd7ea994f4"
+          }
+        },
+        {
+          "client_id": "868898507008-l81qcp45fce5v9an1c5b8jc3cqm4b60b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAncubcmpj3e-uIaLxr5KI7c9SbbvVMjQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868898507008-l81qcp45fce5v9an1c5b8jc3cqm4b60b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
