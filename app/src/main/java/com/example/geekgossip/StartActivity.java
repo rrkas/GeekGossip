@@ -24,6 +24,11 @@ public class StartActivity extends AppCompatActivity {
 
         //check if user is null
         if(firebaseUser!=null){
+            /*
+            login.setVisibility(View.INVISIBLE);
+            register.setVisibility(View.INVISIBLE);
+            */
+
             Intent intent=new Intent(StartActivity.this,MainActivity.class);
             startActivity(intent);
             finish();
