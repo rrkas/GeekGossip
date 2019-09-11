@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.geekgossip.Fragments.ChatsFragment;
@@ -55,7 +56,9 @@ public class MainActivity extends AppCompatActivity {
         username=findViewById(R.id.username);
 
         firebaseUser= FirebaseAuth.getInstance().getCurrentUser();
-        reference= FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid());
+
+            reference = FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid());
+
 
         reference.addValueEventListener(new ValueEventListener() {
             @Override

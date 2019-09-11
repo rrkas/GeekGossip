@@ -20,8 +20,7 @@
         android:layout_toRightOf="@id/profile_image"
         android:layout_toEndOf="@id/profile_image"
         android:layout_marginLeft="10dp"
-        android:layout_centerVertical="true"
-        android:textSize="18sp"
+        android:textSize="20sp"
         />
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -37,6 +36,21 @@
         android:layout_marginLeft="-15dp"
         android:layout_toRightOf="@id/profile_image"
         android:layout_toEndOf="@id/profile_image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_msg"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/username"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
+        android:text="123"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+
         />
 
 

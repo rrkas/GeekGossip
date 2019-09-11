@@ -23,6 +23,8 @@ public class LoginActivity extends AppCompatActivity {
     MaterialEditText email, password;
     Button btn_login;
 
+
+
     FirebaseAuth auth;
     TextView forgot_password;
 
@@ -68,14 +70,17 @@ public class LoginActivity extends AppCompatActivity {
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                 startActivity(intent);
                                 finish();
-                            } else {
-                                Toast.makeText(LoginActivity.this, "Authentication failed",
-                                        Toast.LENGTH_SHORT).show();
+                            } else{
+                                Toast.makeText(LoginActivity.this, "Authentication failed", Toast.LENGTH_SHORT).show();
                             }
                         }
                     });
                 }
             }
         });
+
+
     }
+
+
 }
